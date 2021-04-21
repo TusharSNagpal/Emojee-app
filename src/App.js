@@ -39,7 +39,7 @@ export default function App() {
       <h1>{headerText}</h1>
 
       <input onChange={inputHandlerEmoji}></input>
-      <h2 class="yellow"> {meaning} </h2>
+      <h2 className="yellow"> {meaning} </h2>
 
       <h2> Emojis we know.. </h2>
       <ol>
